@@ -1,0 +1,45 @@
+html {
+    scroll-behavior: smooth !important;
+}
+
+html, body {
+    height:100%;
+}
+
+body {
+    margin:0 auto;
+    width:100%;
+    background-color: #F8F9FA;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: var(--mainFont);
+}
+
+.columns {
+    margin:5vh;
+}
+
+.scroll {
+    overflow:auto;
+}
+.scroll ul {
+    float:left;
+    margin-right:-999em;
+    white-space:nowrap;
+    list-style:none;
+}
+.scroll li {
+    margin:2vh;
+    text-align:center;
+    float:left;
+    display:inline;           
+}
+.scroll img {
+    border:0;
+    display:block;
+    max-width: 25vw;
+}
+
+.content li+li {
+    margin-top: inherit;
+}

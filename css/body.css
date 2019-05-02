@@ -43,3 +43,19 @@ body {
 .content li+li {
     margin-top: inherit;
 }
+
+/* Mobile Responsive */
+
+@media only screen and (max-width:768) {
+    .scroll ul {
+        margin-right:0 !important;
+    }
+
+    .scroll img {
+        max-width:39vw !important;
+    }
+
+    .content ul {
+        margin-left: 0 !important;
+    }
+}

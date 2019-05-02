@@ -46,16 +46,31 @@ body {
 
 /* Mobile Responsive */
 
-@media only screen and (max-width:768) {
+@media screen and (max-width:768px) {
     .scroll ul {
         margin-right:0 !important;
     }
 
     .scroll img {
         max-width:39vw !important;
+        max-height:37vh;
     }
 
     .content ul {
-        margin-left: 0 !important;
+        margin: 0 !important;
+    }
+
+    .scroll li {
+        margin:2vh !important;
+    }
+
+    .scroll {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .scroll img {
+        max-width:63vw !important;
     }
 }

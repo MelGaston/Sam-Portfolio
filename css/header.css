@@ -1,0 +1,10 @@
+h3 a {
+    color:var(--gray) !important;
+    transition:0.3s;
+}
+
+h3 a:hover {
+    color:var(--personal) !important;
+    transition:0.3s;
+    text-decoration: none !important;
+}

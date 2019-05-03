@@ -14,14 +14,16 @@
     <div class="jumbotron jumbotron-fluid img-fluid content" id="splash">
         <div class="outer">
             <div class="container">
-                <h1><span class="yellow">Sam</span> Johnson</h1>
+                <!-- <h1><span class="yellow">Sam</span> Johnson</h1>
                 <div id="splash-p">
                     <p class="lead">
                         human-centered <span class="yellow">research + design</span><br/>
                         portrait + product <span class="yellow">photography</span>
                     </p>
-                </div>
-                <a href="#main">view portfolio</a>
+                </div> -->
+                <a href="#main">
+                    <img src="assets/img/other/Site_Assets-11.png">
+                </a>
             </div>
         </div>
     </div>
@@ -48,16 +50,17 @@
                 <div class="scroll">
                     <ul>
                         <li>
-                            <img src="./assets/img/design/portfolio_design-01.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                            <img src="./assets/img/design/portfolio_design-01.png">
                         </li>
                         <li>
-                            <img src="./assets/img/design/portfolio_design-02.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                            <img src="./assets/img/design/portfolio_design-02.png">
                         </li>
                         <li>
-                            <img src="./assets/img/design/portfolio_design-03.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                            <img src="./assets/img/design/portfolio_design-03.png">
                         </li>
                         <li>
-                            <img src="./assets/img/design/portfolio_design-04.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                            <img src="./assets/img/design/portfolio_design-04.png">
+                            <!-- <img src="./assets/img/design/portfolio_design-04.png" onclick="openModal();currentSlide(4)" class="hover-shadow"> -->
                         </li>
                         <li>
                             <img src="./assets/img/design/portfolio_design-05.png" alt="Presence">
@@ -226,39 +229,34 @@
             </div>
         </div>
 
-        <div id="myModal" class="modal">
+        <!-- <div id="myModal" class="modal">
             <span class="close cursor" onclick="closeModal()">&times;</span>
             <div class="modal-content">
             
                 <div class="mySlides">
-                <div class="numbertext">1 / 4</div>
-                <img src="./assets/img/design/portfolio_design-23.png" style="width:100%">
+                    <img src="./assets/img/design/portfolio_design-01.png" style="width:100%">
                 </div>
             
                 <div class="mySlides">
-                <div class="numbertext">2 / 4</div>
-                <img src="./assets/img/design/portfolio_design-24.png" style="width:100%">
+                    <img src="./assets/img/design/portfolio_design-02.png" style="width:100%">
                 </div>
             
                 <div class="mySlides">
-                <div class="numbertext">3 / 4</div>
-                <img src="./assets/img/design/portfolio_design-25.png" style="width:100%">
+                    <img src="./assets/img/design/portfolio_design-03.png" style="width:100%">
                 </div>
             
                 <div class="mySlides">
-                <div class="numbertext">4 / 4</div>
-                <img src="./assets/img/design/portfolio_design-26.png" style="width:100%">
+                    <img src="./assets/img/design/portfolio_design-04.png" style="width:100%">
                 </div>
             
-                <!-- Next/previous controls -->
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
-            </div>
-        </div>
+        </div> -->
+    </div>
     
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <script>
+    <!-- <script>
         // Open the Modal
         function openModal() {
             document.getElementById('myModal').style.display = "block";
@@ -299,6 +297,6 @@
             dots[slideIndex-1].className += " active";
             captionText.innerHTML = dots[slideIndex-1].alt;
         }
-        </script>
+        </script> -->
 </body>
 </html>

@@ -1,5 +1,5 @@
 #splash {
-    background: url("../assets/img/Harper80.jpeg") no-repeat center;
+    background: url("../assets/img/other/Site_Assets-06.png") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -12,16 +12,16 @@
 }
 
 #splash .container {
-    border: 5px solid var(--gray);
+    /* border: 5px solid var(--gray);
     max-width: 600px;
-    padding: 5vh 5vw;
+    padding: 5vh 5vw; */
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     position: absolute;
     text-align: center;
-    background-color: #fff;
+    /* background-color: #fff; */
 }
 
 #splash h1 {
@@ -42,7 +42,6 @@
 }
 
 #splash a {
-    background-color: var(--gray);
     color:#fff;
     padding:1vh 2vw;
     border:none;
@@ -50,7 +49,6 @@
 }
 
 #splash a:hover {
-    background-color: var(--gray);
     color:#fff;
     text-decoration: none;
 }
@@ -61,4 +59,28 @@
 
 .display-4 .yellow {
     font-weight: 800;
+}
+
+#splash img {
+    max-width:50vw;
+}
+
+/* Mobile Response */
+
+@media screen and (max-width:450px) {
+    #splash img {
+        max-width:90vw;
+    }
+}
+
+@media screen and (min-width:451px) and (max-width:768px) {
+    #splash img {
+        max-width: 65vw;
+    }
+}
+
+@media screen and (min-width:769px) and (min-width:1280px) {
+    #splash img {
+        max-width:35vw;
+    }
 }

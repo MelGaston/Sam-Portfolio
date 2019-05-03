@@ -8,7 +8,7 @@
     text-align:center;
     height: 100vh;
     position: relative;
-    margin-bottom: 0;
+    margin-bottom: -2px;
 }
 
 #splash .container {

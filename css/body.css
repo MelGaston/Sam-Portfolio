@@ -15,8 +15,12 @@ body {
     font-family: var(--mainFont);
 }
 
+.content:not(:last-child) {
+    margin-bottom:0;
+}
+
 .columns {
-    margin:5vh;
+    margin:1vh;
 }
 
 .scroll {

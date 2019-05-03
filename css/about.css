@@ -38,3 +38,11 @@
     max-width: 30%;
     margin:1%;
 }
+
+/* Moblie Responsive */
+
+@media screen and (max-width:450px) {
+    .photoGrid img {
+        max-width:47%;
+    }
+}

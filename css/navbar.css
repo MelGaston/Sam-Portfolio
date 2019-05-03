@@ -3,6 +3,7 @@
     margin:-2px 0 0 ;
     border:none;
     position: -webkit-sticky;
-    position: sticky !important;
+    position: sticky;
     top: 0;
+    z-index: 999;
 }

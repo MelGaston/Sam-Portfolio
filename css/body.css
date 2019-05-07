@@ -11,7 +11,7 @@ html, body {
 body {
     margin:0 auto;
     width:100%;
-    background-color: #ffffff;
+    background-color: #E9E9E9;
     overflow-y: auto;
     font-family: var(--mainFont);
 }
@@ -25,11 +25,16 @@ a {
 }
 
 .columns {
-    margin:1vh;
+    margin:0 !important;
+}
+
+.column {
+    padding:0 !important;
 }
 
 .scroll {
     overflow:auto;
+    margin-top:4.75vh;
 }
 .scroll ul {
     float:left;
@@ -53,9 +58,13 @@ a {
     margin-top: inherit;
 }
 
+.column img {
+    margin-bottom:-1px;
+}
+/* 
 .is-one-quarter img {
     max-width: 95%;
-}
+} */
 
 /* Mobile Responsive */
 

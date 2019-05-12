@@ -6,12 +6,12 @@ html {
 
 html, body {
     height:100%;
+    background-color: #E9E9E9;
 }
 
 body {
     margin:0 auto;
     width:100%;
-    background-color: #E9E9E9;
     overflow-y: auto;
     font-family: var(--mainFont);
 }
@@ -34,7 +34,7 @@ a {
 
 .scroll {
     overflow:auto;
-    margin-top:4.75vh;
+    /* margin-top:1vh; */
 }
 .scroll ul {
     float:left;

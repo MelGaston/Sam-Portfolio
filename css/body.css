@@ -70,7 +70,9 @@ a {
 
 @media screen and (max-width:768px) {
     .scroll ul {
-        margin-right:0 !important;
+        margin-right:0;
+        text-align:center;
+        width:100%;
     }
 
     .scroll img {
@@ -79,11 +81,12 @@ a {
     }
 
     .content ul {
-        margin: 0 !important;
+        margin: 0 auto !important;
     }
 
     .scroll li {
         margin:2vh !important;
+        display:inline-block;
     }
 
     .scroll {

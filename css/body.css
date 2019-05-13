@@ -6,7 +6,7 @@ html {
 
 html, body {
     height:100%;
-    background-color: #E9E9E9;
+    background-color: #E9E9E9 !important;
 }
 
 body {
@@ -61,15 +61,32 @@ a {
 .column img {
     margin-bottom:-1px;
 }
-/* 
-.is-one-quarter img {
-    max-width: 95%;
-} */
+
+.mobile {
+    display: none;
+}
+
+.card {
+    background-color:#E9E9E9;
+}
+
+.btn-block {
+    text-align: left;
+}
+
+.btn.focus, .btn:focus {
+    box-shadow: none;
+}
+
+.icon {
+    float: right;
+    transition:0.3s;
+}
 
 /* Mobile Responsive */
 
 @media screen and (max-width:768px) {
-    .scroll ul {
+    /* .scroll ul {
         margin-right:0;
         text-align:center;
         width:100%;
@@ -91,6 +108,13 @@ a {
 
     .scroll {
         margin: 0 auto;
+    } */
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: inline;
     }
 }
 

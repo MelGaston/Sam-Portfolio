@@ -21,7 +21,7 @@ a {
 }
 
 #main {
-    min-width: 100vh;
+    min-height: 100vh;
 }
 
 .content:not(:last-child) {
@@ -94,6 +94,10 @@ a {
 .fa-times.open{
   transform: rotate(45deg);
   transition: transform 0.4s linear;
+}
+
+.fa-times:before, .btn {
+    color: var(--gray);
 }
 
 /* Mobile Responsive */

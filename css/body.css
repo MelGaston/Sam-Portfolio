@@ -20,6 +20,10 @@ a {
     cursor: pointer;
 }
 
+#main {
+    min-width: 100vh;
+}
+
 .content:not(:last-child) {
     margin-bottom:0;
 }
@@ -80,35 +84,21 @@ a {
 
 .icon {
     float: right;
-    transition:0.3s;
+}
+
+.fa-times{
+  transform: rotate(0deg);
+  transition: transform 0.4s linear;
+}
+
+.fa-times.open{
+  transform: rotate(45deg);
+  transition: transform 0.4s linear;
 }
 
 /* Mobile Responsive */
 
 @media screen and (max-width:768px) {
-    /* .scroll ul {
-        margin-right:0;
-        text-align:center;
-        width:100%;
-    }
-
-    .scroll img {
-        max-width:39vw !important;
-        max-height:37vh;
-    }
-
-    .content ul {
-        margin: 0 auto !important;
-    }
-
-    .scroll li {
-        margin:2vh !important;
-        display:inline-block;
-    }
-
-    .scroll {
-        margin: 0 auto;
-    } */
     .desktop {
         display: none;
     }

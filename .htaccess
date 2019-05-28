@@ -2,3 +2,10 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)\.html$ /$1 [L,R=301] 
+
+RewriteCond %{HTTP_HOST} ^www.iamsamjohnson.com$
+RewriteRule ^(.*)$ http://iamsamjohnson.com/$1 [R=301]
+
+RewriteCond %{HTTP_HOST} ^www.iamsamjohnson.com$
+RewriteCond %{SERVER_PORT} ^443
+RewriteRule ^(.*)$ https://iamsamjohnson.com/$1 [R=301]

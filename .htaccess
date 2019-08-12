@@ -3,6 +3,5 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)\.html$ /$1 [L,R=301] 
 
-RewriteCond %{HTTP_HOST} ^www.iamsamjohnson.com$ [OR]
-RewriteCond %{HTTP_HOST} ^iamsamjohnson.com$
-RewriteRule ^(.*)$ https://iamsamjohnson.com/$1 [R=301]
+RewriteCond %{HTTP_HOST} ^www\.(([a-z0-9_]+\.)?iamsamjohnson\.com)$ [NC]
+RewriteRule .? http://%1%{REQUEST_URI} [R=301,L]
